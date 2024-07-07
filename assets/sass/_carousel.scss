@@ -70,23 +70,8 @@
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0.001em;
-  
-  
-  
-  }
-  @font-face {
-    src: url(../fonts/GeorgeRoundedLight/GeorgeRoundedLight.ttf);
-    font-family: "George Round"; 
-  }
-  @font-face {
-    src: url(../fonts/Alegreya_Sans/AlegreyaSans-LightItalic.ttf);
-    font-family: "AlegreyaSans"; 
   }
   
-  @font-face {
-    src: url(../fonts/Josefin_Sans/static/JosefinSans-ExtraLightItalic.ttf);
-    font-family: "Josefin_Sans"; 
-  }
   
   @media (max-width: 375px) {
     .carousel {
