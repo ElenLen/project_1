@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'George Round';
+    src: local('George Round Light'), local('George-Round-Light'),
+        url('GeorgeRoundedLight.woff2') format('woff2'),
+        url('GeorgeRoundedLight.woff') format('woff'),
+        url('GeorgeRoundedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
