@@ -1,8 +1,11 @@
+*{
+  box-sizing: border-box;
+}
 .carousel {
     display: flex;
     background: url(../img/carousel/backgraund.png);
-    width: 1440px;
-    height: 550px;
+    max-width: 1440px;
+    padding: 48px 0 48px 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -11,14 +14,13 @@
   
   .carousel__gallery {
     display: flex;
-   gap: 30px;
+    gap: 30px;
   
   }
   .carousel__gallery-element {
     box-sizing: border-box;
     display: inline-block;
-    Width: 340px;
-    Height: 458px;
+    max-width: 340px;
     background: #FFFFFF;
     padding: 0 57px 0 59px;
     box-shadow: 0px 23px 34px 0px #2339372B;
@@ -45,8 +47,9 @@
   }
   
   .carousel__btn-element{
-    width: 235px;
-    height: 54px;
+    min-width: 235px;
+    min-height: 54px;
+    margin-bottom: 40px;
     background: #2D635E;
     font-family: George Round;
     font-size: 20px;
@@ -63,7 +66,7 @@
   margin-top: 40px;
   }
   .carousel__paragraph {
-    height: 216px;
+    height: 47%;
     margin: 0 0 47px 0;
   font-family: AlegreyaSans;
   font-size: 19px;
