@@ -63,18 +63,10 @@
   font-size: 28px;
   line-height: 28px;
   margin-top: 40px;
-<<<<<<< HEAD
-}
-
-.carousel__paragraph {
-  height: 216px;
-  margin: 0 0 47px 0;
-=======
   }
   .carousel__paragraph {
     height: 47%;
     margin: 0 0 47px 0;
->>>>>>> 9a73d940e16b9338c1caa6a3dcf39678ddb6211d
   font-family: AlegreyaSans;
   font-size: 19px;
   font-weight: 400;
@@ -92,30 +84,6 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-<<<<<<< HEAD
-
-  .carousel__gallery {
-    box-sizing: border-box;
-    flex-direction: column;
-  }
-
-  .carousel__gallery-element {
-    box-sizing: border-box;
-    width: 339px;
-    height: 458px;
-    padding: 0 47px 0 49px;
-  }
-
-  .carousel__btn-one {
-    display: none;
-
-  }
-
-  .carousel__btn-two {
-    display: none;
-  }
-}
-=======
   
   
   @media (max-width: 375px) {
@@ -142,4 +110,4 @@
       display: none;
     }
   }
->>>>>>> 9a73d940e16b9338c1caa6a3dcf39678ddb6211d
+}
