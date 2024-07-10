@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.content__main {
+  padding-bottom: 150px;
+  padding-right: 200px;
+  padding-left: 80px;
+}
+
+.content__main-paragraph {
+  font-family: Cedarville Cursive;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.content__title {
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 63px;
+}
+
+.content__btn-right {
+  width: 159px;
+  height: 157px;
+  background-image: url('../img/content/vector_right.svg');
+  background-color: lightgray;
+  opacity: 0.4;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content__picture {
+  width: 410px;
+  height: 466px;  
+  background-color: lightgray;
+}
+
+.content__picture-coffee {
+  width: 344px;
+  height: 373px;
+  padding-left: 40px;
+  padding-top: 140px;
+}
