@@ -1,0 +1,31 @@
+.conteiner__info {
+  display: inline-flex;
+  margin: 123px 192px 0 117px;
+  gap: 90px;
+  margin-bottom: 109px;
+}
+.conteiner__info-photo{
+  width: 407px;
+  height: 365px;
+}
+.conteiner__info-about-us{
+  width: 645px;
+  height: 290px;
+}
+
+  .conteiner__info-title {
+  font-family: "Josefin_Sans";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
+  margin: 25px 0 0 0;
+  }
+
+  .conteiner__info-paragraph {
+  font-family: "AlegreyaSans";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 189%;
+  letter-spacing: 0em;
+  color: #444a4a;
+  }
