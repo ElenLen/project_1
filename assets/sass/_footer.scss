@@ -1,0 +1,108 @@
+.footer {
+    max-width: 1200px;
+    margin-top: 131px;
+    margin-left: 120px;
+    }
+    .footer__element-left__map {
+        max-width: 646px;
+        min-height: 351px;
+    
+    }
+    .footer__container {
+        display: grid;
+        grid-template-columns: 3fr 1fr 2fr;
+    }
+    .footer__element-left {
+        position: relative;
+    }
+    .footer__element-left__contacts{
+        position: absolute;
+        margin-left: -28px;
+        margin-top: -25px;
+    }
+    .footer__element-center {
+        margin-top: 57px;
+        margin-left: 42px;
+    }
+    .footer__title {
+        font-family: Josefin_Sans;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0.02em;
+        margin-top: 34px;
+        margin-bottom: 21px;
+    
+    }
+    .footer__paragraph {
+        font-family: AlegreyaSans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.001em;
+        margin-bottom: 16px;
+    }
+    .footer__paragraph__media {
+        font-family: AlegreyaSans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.001em;
+        margin-bottom: 16px;
+    }
+    .footer__end__data {
+        margin-top: 114px;
+        text-align: center;
+        font-family: AlegreyaSans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.001em;
+    
+    }
+    .footer__element__img {
+        display: none;
+    
+    }
+    
+    @media (max-width: 375px) {
+        .footer {
+            margin-left: 18px;
+        }
+        .footer__paragraph , .footer__element-left__contacts,.footer__element-center ,.footer__element__img  {
+            display: none;
+        }
+      
+        .footer__element {
+            text-align: center;
+        }
+        .footer__container {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    .footer__element-left__map {
+        max-width: 337px;
+        min-height: 300px;
+    }
+    
+        .footer__element__img {
+            display: inline;
+            max-width:  189px;
+            min-height: 53px;
+            background-image: url('../img/footer/line.png');
+            background-size: cover;
+            background: #FFFFFF;
+            border: 0;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px 0px #0000002B;
+    
+        
+        }
+        .footer__element__img-btn {
+            max-width:  20px;
+            min-height: 6px;
+            background-color: #FFFFFF;
+        
+        }
+    }
