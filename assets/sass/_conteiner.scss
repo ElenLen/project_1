@@ -29,3 +29,23 @@
   letter-spacing: 0em;
   color: #444a4a;
   }
+@media (max-width: 375px){
+  .conteiner__info-photo{
+    display: none;
+  }
+  .conteiner__info {
+    margin: 150px 0 0 0;
+    width: 100%;
+    background-image: url(../img/about__us/cup_black.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .conteiner__info-about-us{
+    display: grid;
+    width: auto;
+    height: auto;
+    margin: 273px 28px 0 32px;
+    padding: 0;
+  }
+}
+
