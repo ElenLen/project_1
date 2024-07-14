@@ -1,13 +1,14 @@
 .content {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   align-items: flex-end;
+  margin: 123px 192px 0 117px;
+  margin-bottom: 109px;
 }
 
 .content__main {
-  padding-bottom: 150px;
-  padding-right: 200px;
-  padding-left: 80px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .content__main-paragraph {
@@ -56,4 +57,62 @@
   text-align: center;
   color: #ffffff;
   border-radius: 5px;
+}
+
+.content__picture-coffee:hover {
+  transform: scale(1.1);
+}
+
+.content__btn-right:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 375px) {
+  .content__btn-right {
+    display: none;
+  }
+
+  .content__picture {
+    display: none;
+  }
+
+  .container-name {
+    font-family: "Cedarville Cursive", sans-serif;
+    font-weight: 400;
+    width: auto;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .content__title {
+    font-family: "Josefin_Sans", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .content__main-paragraph {
+    font-family: "Cedarville Cursive";
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .content {
+    margin: 150px 0 0 0;
+    width: 100%;
+  }
+
+  .content__btn-element {
+    width: 189px;
+    height: 53px;
+    background-image: url("../img/content/Vector_wihte.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .content__main {
+    align-items: center;
+  }
+
 }
