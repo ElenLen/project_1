@@ -25,8 +25,8 @@
 .content__btn-right {
   width: 159px;
   height: 157px;
-  background-image: url('../img/content/vector_right.svg');
-  background-color: #E3EBE7;
+  background-image: url("../img/content/vector_right.svg");
+  background-color: #e3ebe7;
   opacity: 0.4;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 .content__picture {
   width: 410px;
   height: 466px;
-  background-color: #E3EBE7;
+  background-color: #e3ebe7;
 }
 
 .content__picture-coffee {
@@ -48,12 +48,12 @@
 .content__btn-element {
   width: 235px;
   height: 54px;
-  background: #2D635E;
+  background: #2d635e;
   font-family: George Round;
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 5px;
 }
