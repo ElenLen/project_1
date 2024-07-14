@@ -9,9 +9,9 @@ https://elenlen.github.io/project_1/
 ![image](https://github.com/user-attachments/assets/6abec24d-6446-467a-bb21-e37c7d9365ac)
 ![image](https://github.com/user-attachments/assets/e2d184dd-e33f-4d25-8675-e2dc3816af4e)
 
-Макет проекта https:
+Макет проекта 
 
-//www.figma.com/design/jQlz9F1iz0ysmazPkwwirI/Samwyle-(Community)-(Copy)?node-id=35-10&t=EGhEDOBk4gRvxPp0-0
+https://www.figma.com/design/jQlz9F1iz0ysmazPkwwirI/Samwyle-(Community)-(Copy)?node-id=35-10&t=EGhEDOBk4gRvxPp0-0
 
 Данный проект был разделен между участницами:
 
