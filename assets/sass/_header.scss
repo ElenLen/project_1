@@ -43,7 +43,7 @@
   padding-right: 70px;
 }
 
-.header__btn {
+.header__btn-logo {
   width: 135px;
   height: 43px;
   background: #2d635e;
@@ -57,33 +57,33 @@
 }
 
 @media (max-width: 767px) {
-  .menu-burger__header {
+  .header__menu-burger {
     position: relative;
     width: 40px;
     height: 35px;
     display: block;
     margin-left: 10px;
   }
-  .menu-burger__header span,
-  .menu-burger__header:after,
-  .menu-burger__header:before {
+  .header__menu-burger span,
+  .header__menu-burger:after,
+  .header__menu-burger:before {
     height: 3px;
     width: 100%;
     position: absolute;
     background: #515758;
     margin: 0 auto;
   }
-  .menu-burger__header span {
+  .header__menu-burger span {
     top: 15px;
   }
-  .menu-burger__header:after,
-  .menu-burger__header:before {
+  .header__menu-burger:after,
+  .header__menu-burger:before {
     content: "";
   }
-  .menu-burger__header:after {
+  .header__menu-burger:after {
     bottom: 5px;
   }
-  .menu-burger__header:before {
+  .header__menu-burger:before {
     top: 5px;
   }
 
@@ -103,7 +103,7 @@
 
   .header__title,
   .header__logo,
-  .menu-burger__header {
+  .header__menu-burger {
     display: inline-block;
   }
 }
