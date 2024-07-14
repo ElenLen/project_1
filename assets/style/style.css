@@ -1,0 +1,899 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.content__main {
+  padding-bottom: 150px;
+  padding-right: 200px;
+  padding-left: 80px;
+}
+
+.content__main-paragraph {
+  font-family: "Cedarville Cursive";
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.content__title {
+  font-family: "Josefin_Sans";
+  font-weight: 700;
+  font-size: 63px;
+}
+
+.content__btn-right {
+  width: 159px;
+  height: 157px;
+  background-image: url("../img/content/vector_right.svg");
+  background-color: #e3ebe7;
+  opacity: 0.4;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content__picture {
+  width: 410px;
+  height: 466px;
+  background-color: #e3ebe7;
+}
+
+.content__picture-coffee {
+  width: 344px;
+  height: 373px;
+  padding-left: 40px;
+  padding-top: 140px;
+}
+
+.content__btn-element {
+  width: 235px;
+  height: 54px;
+  background: #2d635e;
+  font-family: "George Round";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.conteiner {
+  display: inline-flex;
+  margin: 123px 192px 0 117px;
+  gap: 90px;
+  margin-bottom: 109px;
+}
+
+.conteiner__info-photo {
+  width: 407px;
+  height: 365px;
+}
+
+.conteiner__info-about-us {
+  width: 645px;
+  height: 290px;
+}
+
+.conteiner__info-title {
+  font-family: "Josefin_Sans";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
+  margin: 25px 0 0 0;
+}
+
+.conteiner__info-paragraph {
+  font-family: "AlegreyaSans";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 189%;
+  letter-spacing: 0em;
+  color: #444a4a;
+}
+
+@media (max-width: 375px) {
+  .conteiner__info-photo {
+    display: none;
+  }
+  .conteiner__info {
+    margin: 150px 0 0 0;
+    width: 100%;
+    background-image: url(../img/about__us/cup_black.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .conteiner__info-about-us {
+    display: grid;
+    width: auto;
+    height: auto;
+    margin: 273px 28px 0 32px;
+    padding: 0;
+  }
+}
+.carousel {
+  display: flex;
+  background: url(../img/carousel/backgraund.png);
+  max-width: 1440px;
+  padding: 48px 120px 48px 120px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.carousel__gallery {
+  display: flex;
+  gap: 30px;
+}
+
+.carousel__gallery-element {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 340px;
+  background: #FFFFFF;
+  padding: 0 57px 0 59px;
+  box-shadow: 0px 23px 34px 0px rgba(35, 57, 55, 0.168627451);
+  border-radius: 25px;
+}
+
+.carousel__btn-one {
+  width: 21px;
+  height: 38px;
+  border: 0;
+  background-image: url("../img/carousel/arrow2.png");
+  background-size: cover;
+  background-color: #f5f7f7;
+}
+
+.carousel__btn-two {
+  width: 21px;
+  height: 38px;
+  border: 0;
+  background-image: url("../img/carousel/arrow1.png");
+  background-size: cover;
+  background-color: #f5f7f7;
+}
+
+.carousel__btn-element {
+  min-width: 235px;
+  min-height: 54px;
+  margin-bottom: 40px;
+  background: #2D635E;
+  font-family: "George Round";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.carousel__title {
+  font-family: "Josefin_Sans";
+  font-size: 28px;
+  line-height: 28px;
+  margin-top: 40px;
+}
+
+.carousel__paragraph {
+  height: 47%;
+  margin: 0 0 47px 0;
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.001em;
+}
+
+@media (max-width: 375px) {
+  .carousel {
+    display: flex;
+    background: #FFFFFF;
+    width: auto;
+    height: 1440px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 375px) and (max-width: 375px) {
+  .carousel {
+    display: flex;
+    background: #FFFFFF;
+    width: auto;
+    height: 1440px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .carousel__gallery {
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .carousel__gallery-element {
+    box-sizing: border-box;
+    width: 339px;
+    height: 458px;
+    padding: 0 47px 0 49px;
+  }
+  .carousel__btn-one {
+    display: none;
+  }
+  .carousel__btn-two {
+    display: none;
+  }
+}
+@font-face {
+  src: url(../fonts/GeorgeRoundedLight/GeorgeRoundedLight.ttf);
+  font-family: "George Round";
+}
+@font-face {
+  src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+  font-family: "AlegreyaSans";
+}
+@font-face {
+  src: url(../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+  font-family: "Josefin_Sans";
+}
+@font-face {
+  src: url(../fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf);
+  font-family: "Cedarville Cursive";
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  padding: 30px 0 30px 0;
+}
+
+.header__title,
+.header__menu {
+  display: inline-block;
+}
+
+.header__logo {
+  padding: 0 0 0 70px;
+}
+
+.header__title {
+  font-family: "Cedarville Cursive";
+  font-weight: 500;
+  font-size: 30px;
+  padding-right: 350px;
+}
+
+.header__menu-list {
+  list-style-type: none;
+}
+
+.header__menu-link {
+  font-family: "George Round";
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-right: 70px;
+  list-style-type: none;
+}
+
+.header__menu-link1 {
+  font-family: "George Round";
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-right: 70px;
+}
+
+.header__btn-logo {
+  width: 135px;
+  height: 43px;
+  background: #2d635e;
+  font-family: "George Round";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .header__menu-burger {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+  }
+  .header__menu-burger span,
+  .header__menu-burger:after,
+  .header__menu-burger:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+  }
+  .header__menu-burger span {
+    top: 15px;
+  }
+  .header__menu-burger:after,
+  .header__menu-burger:before {
+    content: "";
+  }
+  .header__menu-burger:after {
+    bottom: 5px;
+  }
+  .header__menu-burger:before {
+    top: 5px;
+  }
+  .content-wrapper {
+    margin-top: 48px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo {
+    padding: 0 0 0 40px;
+  }
+  .header__title {
+    position: absolute;
+  }
+  .header__title,
+  .header__logo,
+  .header__menu-burger {
+    display: inline-block;
+  }
+}
+.footer {
+  max-width: 1200px;
+  margin-top: 131px;
+  margin-left: 120px;
+}
+
+.footer__element-left__map {
+  max-width: 646px;
+  min-height: 351px;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+}
+
+.footer__element-left {
+  position: relative;
+}
+
+.footer__element-left__contacts {
+  position: absolute;
+  margin-left: -28px;
+  margin-top: -25px;
+}
+
+.footer__element-center {
+  margin-top: 57px;
+  margin-left: 42px;
+}
+
+.footer__title {
+  font-family: "Josefin_Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  margin-top: 34px;
+  margin-bottom: 21px;
+}
+
+.footer__paragraph {
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.001em;
+  margin-bottom: 16px;
+}
+
+.footer__paragraph__media {
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.001em;
+  margin-bottom: 16px;
+}
+
+.footer__end__data {
+  margin-top: 114px;
+  text-align: center;
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.001em;
+}
+
+.footer__element__img {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .footer {
+    margin-left: 18px;
+  }
+  .footer__paragraph, .footer__element-left__contacts, .footer__element-center, .footer__element__img {
+    display: none;
+  }
+  .footer__element {
+    text-align: center;
+  }
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__element-left__map {
+    max-width: 337px;
+    min-height: 300px;
+  }
+  .footer__element__img {
+    display: inline;
+    max-width: 189px;
+    min-height: 53px;
+    background-image: url("../img/footer/line.png");
+    background-size: cover;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.168627451);
+  }
+  .footer__element__img-btn {
+    max-width: 20px;
+    min-height: 6px;
+    background-color: #FFFFFF;
+  }
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.promo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding-left: 120px;
+  flex-wrap: nowrap;
+}
+
+.promo__title {
+  font-family: "Josefin_Sans";
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.promo__text {
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  line-height: 36px;
+  font-weight: 400px;
+  color: #444a4a;
+}
+
+.promo__div1 {
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex-start;
+  width: 615px;
+  margin-bottom: 20px;
+}
+
+.promo__btn {
+  width: 320px;
+  height: 54px;
+  background-color: #2d635e;
+  font-family: "George Round";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.02px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.promo__btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.promo__div2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 410px;
+  height: 280px;
+  background-color: #e3ebe7;
+}
+
+.promo__img {
+  position: absolute;
+  top: -20px;
+  margin: 0 auto;
+}
+
+.promo__img:hover {
+  transform: scale(1.1);
+}
+
+.promo__div2-text {
+  font-family: "Cedarville Cursive";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 53.1px;
+  text-align: left;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: absolute;
+  right: -80px;
+  top: 0;
+}
+
+@media (max-width: 375px) {
+  .promo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .promo__btn {
+    display: none;
+  }
+  .promo__div1 {
+    width: 334px;
+    height: 371px;
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
