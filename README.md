@@ -23,7 +23,8 @@ https://www.figma.com/design/jQlz9F1iz0ysmazPkwwirI/Samwyle-(Community)-(Copy)?n
 4 - Ирина
 5 - Полина
 6 - Любовь и Полина
+[![Contributors](https://contrib.rocks/image?repo=ElenLen/project_1)](https://github.com/ElenLen/project_1/graphs/contributors)
 
 Представляет собой одностроничный сайт, написанный при помощи HTML, CSS, SCSS
 
-[![Contributors](https://contrib.rocks/image?repo=ElenLen/project_1)](https://github.com/ElenLen/project_1/graphs/contributors)
+
