@@ -25,3 +25,5 @@ https://www.figma.com/design/jQlz9F1iz0ysmazPkwwirI/Samwyle-(Community)-(Copy)?n
 6 - Любовь и Полина
 
 Представляет собой одностроничный сайт, написанный при помощи HTML, CSS, SCSS
+
+[![Contributors](https://contrib.rocks/image?repo=akshitagupta15june/PetMe)](https://github.com/ElenLen/project_1/graphs/contributors)
