@@ -26,4 +26,4 @@ https://www.figma.com/design/jQlz9F1iz0ysmazPkwwirI/Samwyle-(Community)-(Copy)?n
 
 Представляет собой одностроничный сайт, написанный при помощи HTML, CSS, SCSS
 
-[![Contributors](https://contrib.rocks/image?repo=akshitagupta15june/PetMe)](https://github.com/ElenLen/project_1/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=ElenLen/project_1)](https://github.com/ElenLen/project_1/graphs/contributors)
